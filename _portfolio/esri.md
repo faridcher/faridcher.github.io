@@ -1,4 +1,4 @@
---
+---
 title: "Esri Products"
 excerpt: "A short list of my background with ArcGIS software development"
 header:
