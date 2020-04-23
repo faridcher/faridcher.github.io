@@ -10,20 +10,7 @@ tags:
   - R
 ---
 
-A while ago I took an online machine learning course offered by Andrew NG on [Coursera](www.coursera.com) platform. The course was spectacular although all the assignments MUST be submitted via MATLAB/OCTAVE. This would be a tedious effort for users who have spent a lot of time learning the basics of R language. Thus, I developed all the starter codes for R users in order to be able to carry out their assignments in R and submit them to Coursera directly from R. For more information visit the course Repo on [Github](https://github.com/faridcher/machine-learning-course).
-
-## Screen-shots
-A few screen-shots of the plots produced in R:
-
-![Anomaly Detection](http://faridcher.github.io/uploads/ml-course/Snapshots/AnomolyDetection.png)
-![Gradient Descent Convergence](http://faridcher.github.io/uploads/ml-course/Snapshots/GradientDescent_Convergence.PNG)
-![K-Means Clustering](http://faridcher.github.io/uploads/ml-course/Snapshots/K-Means_Clustering.png)
-![K-Means Raster Compress](http://faridcher.github.io/uploads/ml-course/Snapshots/K-Means_CompressImage.png)
-![Learning Curves](http://faridcher.github.io/uploads/ml-course/Snapshots/Learning Curve.png)
-![PCA Face Dataset](http://faridcher.github.io/uploads/ml-course/Snapshots/PCA_FaceDataset.png)
-![SVM RBF Kernel](http://faridcher.github.io/uploads/ml-course/Snapshots/SVM_RBF_Kernel.png)
-![Multiple Regression](http://faridcher.github.io/uploads/ml-course/Snapshots/GradientDescent_multiple-regression.PNG)
-![PCA Pixel Dataset Centroids](http://faridcher.github.io/uploads/ml-course/Snapshots/PCA_PixelDataset_Centroid.PNG)
+A while ago I took an online machine learning course offered by Andrew NG on [Coursera](www.coursera.com) platform. The course was spectacular although all the assignments MUST be submitted via MATLAB/OCTAVE. This would be a tedious effort for users who have spent a lot of time learning the basics of R language. Thus, I developed all the starter codes for R users in order to be able to carry out their assignments in R and submit them to Coursera directly from R. For more information visit the course Repo at [Github](https://github.com/faridcher/machine-learning-course).
 
 ## Topics covered in the course and assignments
 1. Linear regression, cost function and normalization
