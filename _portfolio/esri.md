@@ -1,4 +1,4 @@
----
+--
 title: "Esri Products"
 excerpt: "A short list of my background with ArcGIS software development"
 header:
@@ -30,31 +30,28 @@ I developed this ArcGIS Addin to trace an electric network and then export spati
 I have developed custom network tracers such as "Feeder Network Tracer" for electric and "Valve Isolation Tracer" for the gas network.
 
 ### SDE User Manager Application
-Although it is feasible to manage users and define security levels for data sources with ArcGIS built-in Geoprocessing tools, it is not the most intuitive way to achieve these goals. `SDE User Manager` is a WinForm ArcEngine application to streamline user management workflows. It allows the system administrator to do the following tasks in a unified GUI:
+Although it is feasible to manage users and define security levels for data sources with ArcGIS built-in Geoprocessing tools, it is not the most intuitive way to achieve these goals. SDE User Manager is a WinForm ArcEngine application to streamline user management workflows. It allows the system administrator to do the following tasks in a unified GUI:
 
 - Create, edit and remove users and groups from Geodatabase 
 - Define access levels (read, insert, delete and update) for the Geodatabase data sets
 - Follows Esri best practice for user management e.g. assigning privileges to groups/roles instead of user
 
-
-![SdeUserManager]({{base_path}}/images/SdeUserManager.JPG)
+![SdeUserManager](sde-usr-mngr.jpg)
 
 ### Basemap Manager Addin
 Google maps are appealing and everybody loves them. This ArcGIS Addin utilizes Google maps API and adds the following functionalities to ArcMap:
 
 - Add Google maps and satellite imagery layers to ArcMap as a WMTS layer and supports tile caching. It can be used in online and offline mode
 - Support for Google Geocoding API: Users can search places from within ArcMap
-- Uses HTML5 Geolocation API to locate ArcMap user location on the map (this feature needs active Internet connection)
+- Uses HTML5 Geolocation API to locate ArcMap user location on the map (this feature needs active Internet connection) 
 
-![OnlineMaps]({{base_path}}/images/OnlineMaps.JPG)
+![OnlineMaps](online-maps.jpg)
 
 ### Editor/Geodatabase Extension
-I have used "Editor Extension" to create editor construction tools to draw features in batch mode. For example in a gas utility network, the GIS data editor can draw a "service line" and "service point" simultaneously instead of drawing them one by one.
-
-Geodatabase extension is the best approach to feature's update/insert/delete event handling because they are application independent. I have used them with projects that the edits came from web, mobile and enterprise users.
+I have used "Editor Extension" to create editor construction tools to draw features in batch mode. For example in a gas utility network, the GIS data editor can draw a "service line" and "service point" simultaneously instead of drawing them one by one. Geodatabase extension is the best approach to feature's update/insert/delete event handling because they are application independent. I have used them with projects that the edits came from the web, mobile and enterprise users.
 
 ### SOE (Server Objects Extension)
-Although an Arcpy script can be shared as a Geoprocessing tool and be used by ArcGIS Server, yet they are not very efficient; they have a large memory footprint. For fine grained and repeated work-flows, ESRI suggests `Server Objects Extension (SOE)`. I have not been involved in many "ArcGIS Server" based projects but I have exposed some of my handy functions (e.g. network tracers) as `RESTful` web services through SOE to be called by 3rd party applications. In addition, piping a functionality through standard OGC web services allows ArcGIS web clients, such as javascript API, to consume them efficiently.
+Although an Arcpy script can be shared as a Geoprocessing tool and be used by ArcGIS Server, yet they are not very efficient; they have a large memory footprint. For fine grained and repeated work-flows, ESRI suggests Server Objects Extension (SOE). I have not been involved in many "ArcGIS Server" based projects but I have exposed some of my handy functions (e.g. network tracers) as RESTful web services through SOE to be called by 3rd party applications. In addition, piping a functionality through standard OGC web services allows ArcGIS web clients, such as javascript API, to consume them efficiently.
 
 ## ArcPy
 I have written many Python (ArcPy) scripts to automate my workflows. Python is part of ArcGIS system and it is integrated with different sections of the software - ArcGIS system without python is not imaginable. An excerpt of my python scripts:
@@ -65,10 +62,8 @@ I have written many Python (ArcPy) scripts to automate my workflows. Python is p
 - [Comtypes with Arcpy](http://gis.stackexchange.com/questions/178532/in-arcmap-use-python-to-disable-scale-map-elements-proportionally-to-changes-i) to access features of ArcObjects that are not exposed to Arcpy
 - Toolboxes and tools to automate my daily GIS tasks
 
-
 ## ArcSDE
-For customers that software price is a critical parameter I always suggest PostgreSql (PG) as the database back-end. PostgreSql is both free and powerful and ESRI supports it comprehensively. Although I still believe no database could beat Oracle in terms of performance and scalability. I have used PG in my projects with ESRI `SDE` data type and functions which are independent of PostGIS. Furthermore, I always suggest "ArcSDE direct-connect" with the native DBMS client as per ESRI recommendation.
-In addition, I have utilized many of enterprise level PostgreSql backup features in miscellaneous projects as follows:
+For customers that software price is a critical parameter I always suggest PostgreSql (PG) as the database back-end. PostgreSql is both free and powerful and ESRI supports it comprehensively. Although I still believe no database could beat Oracle in terms of performance and scalability. I have used PG in my projects with ESRI SDE  data type and functions which are independent of PostGIS. Furthermore, I always suggest ArcSDE direct-connect with the native DBMS client as per ESRI recommendation. In addition, I have utilized many of the enterprise level PostgreSql backup features in miscellaneous projects as follows:
 
 - Hot backup
 - Weekly base backup with daily incremental backup
@@ -76,4 +71,3 @@ In addition, I have utilized many of enterprise level PostgreSql backup features
 - Store backups on any device including external H.D.D, network share, Tape and etc
 - Point in time recovery
 - Remote backup
-
