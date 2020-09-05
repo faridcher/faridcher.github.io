@@ -10,7 +10,7 @@ tags:
   - R
 ---
 
-A while ago I took an online machine learning course offered by Andrew NG on [Coursera](www.coursera.com) platform. The course was spectacular although all the assignments MUST be submitted via MATLAB/OCTAVE. This would be a tedious effort for users who have spent a lot of time learning the basics of R language. Thus, I developed all the starter codes for R users in order to be able to carry out their assignments in R and submit them to Coursera directly from R. For more information visit the course Repo at [Github](https://github.com/faridcher/machine-learning-course).
+A while ago I took an online machine learning course offered by Andrew NG on [Coursera](www.coursera.com) platform. The course was spectacular although all the assignments must be submitted via MATLAB/OCTAVE. This would be a tedious effort for users who have spent a lot of time learning the basics of R language and intend to complete the assignment using R language. Thus, I developed all the starter code for R users in order to be able to carry out their assignments in R and submit them to Coursera directly from R. For more information visit the course repository at [Github](https://github.com/faridcher/machine-learning-course).
 
 ## Topics covered in the course and assignments
 1. Linear regression, cost function and normalization
