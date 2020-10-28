@@ -1,5 +1,5 @@
 ---
-title:  "Manipulate the brain to tap into our long-term memory"
+title: "Manipulate the brain to tap into our long-term memory"
 mathjax: false
 categories: 
   - Learning
@@ -8,7 +8,7 @@ tags:
   - Learning-Style
 ---
 
-Everybody is learning something fresh every day. The moment that we realize something is the pleasant "aha" instant that we succeed to connect the dots and assimilate the concept. Our careless mind believes that understanding will last forever, although in the next couple of days the idea is already stolen by our brain zombies (zombie is a term coined in Learn How to Learn course). The more time interval between the review of the concept the more susceptible to completely forget it. This incurs the loss of our time, energy and ultimately efficiency. 
+Everybody is learning something new every day. The moment that we realize something is the pleasant "aha" instant that we succeed to connect the dots and assimilate the concept. Our careless mind believes that understanding will last forever, although in the next couple of days the idea is already stolen by our brain zombies (zombie is a term coined in Learn How to Learn course). The more time interval between the review of the concept the more susceptible to completely forget it. This incurs the loss of our time, energy and ultimately efficiency. 
 
 ## Spaced Repetition
 Intuitively people may think they will ingrain and internalize the concept by just repeatedly reading the text in the same session. However, our brain doesn't function in this manner. In this post I will describe a learning technique called "spaced repetition"; a scientifically proven technique to send information from our short-term memory to the everlasting long-term memory. The notion of spaced repetition tells to incrementally increase the time between reviews of the concept. For example, see this image from [Learn How to Learn online course](https://www.coursera.org/learn/learning-how-to-learn/):
@@ -17,9 +17,9 @@ Intuitively people may think they will ingrain and internalize the concept by ju
 
 Up to now, we know that this spaced repetition is in harmony with our brain system. The real question would be: 
 
-"how do we integrate it with our learning habits"?
+how do we integrate it with our learning habits?
 
-I spend most of my time on writing my thesis, programming and learning more literary English. When I learn a new notion related to my field of study, a new programming function or an English word I used to write it somewhere on my computer. The problem with this approach is: although I promised myself to review the material, I would not. In future, I have to spend the same amount of time to remember or even worse to re-learn the piece of the chunk.
+Nowadays, I spend most of my time on writing my PhD dissertation, programming and learning more literary English. When I learn a new notion related to my field of study, a new programming function or an English word, I used to write it somewhere on my computer. The problem with this approach is: although I promised myself to review the material, I would not. In future, I have to spend the same amount of time to remember or even worse to re-learn the piece of the chunk.
 
 ## Anki
 
